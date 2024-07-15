@@ -1,0 +1,116 @@
+<html>
+    <head>
+       <TITLE> XAMPP SETUP</TITLE>
+       <style>
+        h1{
+            text-align: center;
+            
+        }
+        p{
+            border-bottom: 1px solid black;
+            padding-bottom: 5px;
+            text-align: center;
+
+        }
+        h2{
+            text-align: center;
+        }
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(176, 193, 191);
+        
+        }
+        ul{
+            color: rgb(26, 76, 110);
+        }
+        ol{
+            color: rgb(196, 41, 41);
+        }
+       </style>
+    </head>
+    <body>
+        <p><H1> What is XAMPP?  </H1>
+            XAMPP is a free, open-source software package that provides a local web server environment for testing and developing websites and applications. It's designed for standalone development lab environments and shouldn't be used in production settings. XAMPP is compatible with various operating systems, including Windows, Mac OS X, Linux, and Solaris.
+
+        </p>
+        <h2> LETS SETUP XAMPP ACCORDINGLY</h2>
+        <ol>
+            <li>Download XAMPP</li>
+            <ul>
+                <li>Go to the official XAMPP website.</li>
+                <li>Click on the download link for Windows to get the latest version of XAMPP.</li>
+                
+            </ul>
+
+            <li> Run the Installer</li>
+            <ul>
+                <li>Locate the downloaded file and double-click it to start the installation process.</li>
+                <li>If prompted by User Account Control, click "Yes." </li>
+
+            </ul>
+            <li>Select Components</li>
+            <ul>
+                <li>Select the components you want to install. By default, all components are selected.</li>
+                <li>For a basic setup, you can keep the default selection, which includes Apache, MySQL, PHP, and phpMyAdmin.</li>
+            </ul>
+
+            <li>Choose Installation Folder</li>
+            <ul>
+                <li>Choose the folder where you want to install XAMPP. The default location is C:\xampp.</li>
+                <li>Click "Next."</li>
+            </ul>
+            <li>Start the Installation</li>
+            <ul>
+                <li>Click "Next" to start the installation process.</li>
+                <li>Wait for the installation to complete. This may take a few minutes.</li>
+            </ul>
+            <li>Complete the Installation</li>
+            <ul>
+                <li>Once the installation is complete, click "Finish."</li>
+                <li>You can choose to start the XAMPP Control Panel immediately.</li>
+            </ul>
+            <li>Open XAMPP Control Panel</li>
+            <ul>
+                <li>Open the XAMPP Control Panel from the start menu or desktop shortcut.</li>
+                <li>You will see a control panel with options to start and stop services.</li>
+            </ul>
+            <li> Start Apache and MySQL</li>
+            <ul>
+                <li>In the XAMPP Control Panel, click the "Start" button next to Apache.</li>
+                <li>Click the "Start" button next to MySQL.</li>
+                <li>The module names should turn green, indicating that they are running.</li>
+            </ul>
+            <li>Verify Installation</li>
+            <ul>
+                <li>Open a web browser and type http://localhost in the address bar.</li>
+                <li>You should see the XAMPP welcome page, confirming that the installation was successful.</li>
+            </ul>
+            <li>Test PHP and MySQL</li>
+            <ul>
+                <li>Create a new file named test.php in the C:\xampp\htdocs folder.</li>
+                <li>Add the following PHP code to the file:<br><?php
+                    phpinfo();
+                    ?></li>
+                    <li>Save the file and open http://localhost/test.php in your web browser.</li>
+                    <li>You should see the PHP information page, confirming that PHP is working correctly.</li>
+
+            </ul>
+            <h3>Additional Configuration</h3>
+            <li>phpMyAdmin:</li>
+            <ul>
+                <li>Access phpMyAdmin by navigating to http://localhost/phpmyadmin in your web browser.</li>
+                <li>Use it to manage your MySQL databases.</li>
+            </ul>
+            <li>Security:</li>
+            <ul>
+                <li>For a production environment, consider securing your XAMPP installation. The XAMPP welcome page has a "Security" link with useful information.
+                </li>
+            </ul>
+        </ol><br>
+        <br>
+<center><p1><i>That's it! You have successfully set up XAMPP on your Windows machine.</i></p1></center>
+<br><br>
+<center><b ><span  > &#169; YUKE</span></b>  </center>
+</body>
+</html>

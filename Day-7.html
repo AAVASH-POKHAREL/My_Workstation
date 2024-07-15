@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <style>
+            body{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: center;
+                color: rgb(22, 74, 39);
+            }
+            table ,td,th{
+                border: 2px solid black;
+                table-layout: auto;
+                border-collapse: collapse;
+                text-align: center;
+                font-size: 22px;
+
+            }
+
+            h1,h3,h4{
+                color: rgb(27, 191, 136);
+            }
+        </style>
+        <title>
+            DDL COMMANDS
+        </title>
+    </head>
+    <body>
+    <h1> What is commands in SQL?</h1>
+    <p>SQL=Structured Query Language<br>
+        SQL commands are the instructions used to communicate with a database to perform tasks, functions, and queries with data.</p>
+<br>
+<p><h3>What Is DDL Commands?</h3><br>DDL= Data Definition Language<Br>
+    DDL is a type of SQL command used to define data structures and modify data. It creates, alters, and deletes database objects such as tables, views, indexes, and users.
+<br>
+<h4>Some DDL commands and thier syntax are tabulated below</h4>
+ </p>
+ <table style="width: 100%;" >
+    <tr>
+        <th>Command</th>
+        <th>Description</th>
+        <th>Syntax</th>
+    </tr>
+    <tr>
+    <td>CREATE</td>
+    <td>Create database or its objects (table, index, function, views, store procedure, and triggers)</td>
+    <td>CREATE TABLE table_name (column1 data_type, column2 data_type, ...);</td>
+</tr>
+<tr>
+    <td>DROP</td>
+    <td>Delete objects from the database</td>
+    <td>DROP TABLE table_name;</td>
+</tr>
+<tr>
+    <td>ALTER</td>
+    <td>Alter the structure of the database</td>
+    <Td>ALTER TABLE table_name ADD COLUMN column_name data_type;</Td>
+</tr>
+<tr>
+    <td>TRUNCATE</td>
+    <td>Remove all records from a table, including all spaces allocated for the records are removed</td>
+    <td>TRUNCATE TABLE table_name;</td>
+</tr>
+<tr>
+    <td>COMMENT</td>
+    <td>Add comments to the data dictionary</td>
+    <td> dictionary	COMMENT 'comment_text' ON TABLE table_name;</td>
+</tr>
+<tr>
+    <td>RENAME</td>
+    <td>Rename an object existing in the database</td>
+    <td>RENAME TABLE old_table_name TO new_table_name;</td>
+</tr>
+ </table>
+
+ <br><Br>
+ <b><span > &#169; YUKE</span></b>  
+</body>
+</html>
