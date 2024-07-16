@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title> Logical Operations</title>
+        <style>
+            body{
+                text-align: center;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h1,h2{
+    color: rgb(26, 32, 137);
+}
+h3{
+    color: rgb(26, 16, 3);
+}
+        </style>
+    </head>
+    <body>
+        <h1> What is Logical Operators in SQL?</h1><Br>
+<p>SQL logical operators are used to test for the truth of the condition. A logical operator like the Comparison operator returns a boolean value of TRUE, FALSE, or UNKNOWN. In this article, we will discuss different types of Logical Operators.
+    Logical operators are used to combine or manipulate the conditions given in a query to retrieve or manipulate data .there are some logical operators in SQL like OR, AND etc.
+</p>
+<h4>Some of the Operators are mentioned below with its syntax.</h4>
+        <p><b>AND: <br></b>
+            SELECT * FROM EMPLOYEE <br> 
+            WHERE SALARY < 10000 AND AGE>25<Br>
+                <br>
+                <b>OR:
+                </b><Br>
+                    SELECT * FROM STUDENTS WHERE RANK >20 OR MARKS >600;
+<br><br>
+    <b>NOT :
+    </b><Br>
+        SELECT * FROM EMP WHERE NOT SALARY =10000;<Br><br><br>
+            <b><u>ORDER-Ing  OPERATION</u></b><br><br>
+            <b>ASC: </b><br>
+            SELECT * FROM EMP ORDER BY ID ASC;
+            <br><br>
+            <b>DESC:</b><br>
+            SELECT* FROM EMP ORDER BY ID DESC;
+            <br><br>
+            <b><u>GROUP-ING operation </u></b>
+            <br><br><br>
+            SELECT* FNAME ,lNAME FROM EMP
+GROUP BY Name;
+<br><br>
+<b><u>AGGREGATE FUNCTIONS( MATHEMATICAL OPERATIONS)
+</u></b><br><br>
+<br>
+<b>AVERAGE:
+    <br>
+</b>SELECT avg(salary) FROM EMP;<br><br>
+<b>MINIMUM:<br></b>SELECT MIN(salary) FROM EMP;<br><br>
+<b>MAXIMUM: <br></b>SELECT max (salary) FROM EMP;<br><br>
+<b>SUM: <br></b>SELECT sum(salary) FROM EMP;<br><br>
+<b>COUNT:<br></b>SELECT (id) FORM EMP;<br><br>
+<b>DISTINCT:<br></b>SELECT distinct(name) FROM EMP;<br><br>
+<b>ROUND: <br></b>SELECT ROUND(MARKS,2) FROM STUDENTS;<br><br>
+<b><u>String Functions ( String Handeing Functions)</u></b><br><Br><br>
+    <b>LENGTH: <br></b>SELECT LEN(`APPLE`);<br><br>
+    <b>REVERSE:<br></b>SELECT REVERSE(`APPLE`);<br><br>
+    <b>REPLICATE:<br></b>SELECT REPLICATE(`APPLE`,S);<br><br>
+    <b>UPPERCASE:<br></b>SELECT UPPERCASE (`apple`);<br><br>
+    <b>LOWERCASE:<br></b>SELECT LOWERCASE (`APPLE);<br><br>
+    <b>CONCATENATION:<br></b>SELECT CONCATENATION (`NE’.’PA’,’L’);<br><br>
+    <b>LEFT MOST CHARACTER:<br></b>SELECT LEFT (`APPLE`,3);<br><br>
+    <b>RIGHT MOST CHARACTER: <br></b>SELECT RIGHT(`APPLE`,3);<br><br>
+<br>
+<b><u>OTHERS</u></b><br><br>
+<b>IN:<br></b>SELECT ADDRESS FROM STD; WHERE IN (“KTM”,:BIKE”,”PTN”);<br><br>
+<b>BETWEEN: <br></b>SELECT SALARY FROM EMP BETWEEN 3000 AND 40000;<br><br>
+<b>PERCENTAGE: <br></b>SELECT NAME FROM STD NAME “%a”;<br><br>
+<b>UNDERSCORE: <br></b>SELECT NAME FROM STD LIKE”%__B”<br><br>
+<b>HAVING: <br></b>ELECT NAME FROM STD WHERE GRADE =”A” HAVING MARKS>800<br><br>
+<p><i>These are some of the sample of Logical operators for the wuick review.</i></p>   
+<br><Br>
+          
+
+  <b><span > &#169; YUKE</span></b>
+</p>
+    </body>
+</html>
